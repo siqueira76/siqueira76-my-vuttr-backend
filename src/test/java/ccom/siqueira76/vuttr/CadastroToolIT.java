@@ -28,6 +28,7 @@ public class CadastroToolIT {
 
 	@LocalServerPort
 	private int port;
+	
 	TestRestTemplate restTemplate = new TestRestTemplate();
 
 	@Autowired
