@@ -39,7 +39,6 @@ public class CadastroUserIT {
 	@Test
 	public void deveRetornarStatus202_QuandoCadastrarUser() {
 		
-		User obj = new User(null, "admin-test@email.com", "1234");
 		String json = null;
 
 		try {
