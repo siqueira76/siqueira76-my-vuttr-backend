@@ -66,9 +66,22 @@
 			<version>19.3.0.0</version>
 		</dependency>
 
+		<!-- MIGRARION  -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.flywaydb</groupId> -->
+<!-- 			<artifactId>flyway-core</artifactId> -->
+<!-- 		</dependency> -->
+		
+		<!-- SECURITY -->
 		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.7.0</version>
 		</dependency>
 
 	</dependencies>
