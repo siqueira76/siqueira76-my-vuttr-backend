@@ -33,10 +33,13 @@ public class DBService {
 		Tool tool2 = new Tool(null, "json-server", "https://github.com/typicode/json-server", "Fake REST API based on a json schema. Useful for mocking and creating APIs for front-end devs to consume in coding challenges.");
 		tool2.getTags().addAll(Arrays.asList("api", "json", "schema", "node", "github", "rest"));
 		
+		Tool tool3 = new Tool(null, "fastify", "https://www.fastify.io/", "Extremely fast and simple, low-overhead web framework for NodeJS. Supports HTTP2.");
+		tool3.getTags().addAll(Arrays.asList("web", "framework", "node", "http2", "https", "localhost"));
+		
 		User user = new User(null, "admin@mail.com", pswEncoder.encode("123"));
 		user.addPerfil(Perfil.ADMIN);
 		
-		toolRepository.saveAll(Arrays.asList(tool1, tool2));
+		toolRepository.saveAll(Arrays.asList(tool1, tool2,tool3));
 		userRepository.save(user);
 		
 	}
