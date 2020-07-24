@@ -2,7 +2,7 @@ Very Useful Tools to Remember | BackEnd Restfull | API
 
 ***
 
-Uma API rest de senvolvida em Java 8, Spring Boot 2.1.16, que consiste em repositório para gerenciar ferramentas com seus respectivos nomes, links, descrições e tags.
+Uma API rest desenvolvida em Java 8, Spring Boot 2.1.16, que consiste em um repositório para gerenciar ferramentas com seus respectivos nomes, links, descrições e tags.
 
 Funcionalidades
 
@@ -27,6 +27,15 @@ Documentação
 Autenticação JWT
  
  	´{ "email": "admin@mail.com", "senha": "123"}´
+ 	
+ 	Endpoints sem restrição de loging
+ 	
+ 	GET /tools
+ 	GET /tools/tags/{tagName}
+ 	GET /tools/{id}
+ 	GET /user/{id}
+ 	GET /user/email/{email}
+ 	
  	
 INFO.
 
