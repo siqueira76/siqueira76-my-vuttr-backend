@@ -28,7 +28,7 @@ Autenticação JWT
  
  	´{ "email": "admin@mail.com", "senha": "123"}´
  	
- 	Endpoints sem restrição de loging
+ 	Endpoints sem restrição de login
  	
  	GET /tools
  	GET /tools/tags/{tagName}
